@@ -1,0 +1,24 @@
+X_train = X_train[:, 1:]
+X_test = X_test[:, 1:]
+K_values = [1, 3, 6, 10, 30, 60, 100]
+
+Y_predicted = np.zeros((X_test.shape[0], len(K_values)))
+
+k_fold = 5
+kf_validation = KFold(n_splits=k_fold)
+F1_values = np.zeros((K_values.shape[0], k_fold))
+
+iterations = 0
+for k in K_values:
+    print("K Value: " + str(k))
+    for train_index, validation_index in kf_validation:
+        #Creating the training and the validation sets
+        X_train_val = X_train[train_index, :]
+        Y_train_val = Y_train[train_index]
+        
+        X_validation = X_train[validation_index, :]
+        Y_validation = Y_train[validation_index]
+        
+        for i in range(X_validation.shape[0]):
+            Y_predicted[i, iterations] = KNN(X_train_val, Y_train_val, X_validation[i, :], k)
+    iterations += 1
