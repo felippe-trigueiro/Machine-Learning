@@ -3,7 +3,7 @@ This repository is divided into two groups: The exercises and a project regardin
 
 The algorithms used in the exercises are:
 
-1 - Regression problem: Linear Regression with Ridge Regularization. In this project I built all the features from scratch.
+1 - Regression problem: Linear Regression with Ridge Regularization. In this project I built all the features from scratch.  
 2 - Binary and Multiclass Classification Problem: Logistic Regression and KNN. In this project I built all the features from scratch.
 3 - Binary Classification: Multilayer Perceptron (MLP) and Support Vector Machine (SVM). In this project I used the SCIKITLEARN Package.
 
