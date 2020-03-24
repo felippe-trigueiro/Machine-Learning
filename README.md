@@ -3,11 +3,11 @@ This repository is divided into two groups: The exercises and a project regardin
 
 The algorithms used in the exercises are:
 
-1 - Regression problem: Linear Regression with Ridge Regularization;
-2 - Binary and Multiclass Classification Problem: Logistic Regression and KNN
-3 - Binary Classification: Multilayer Perceptron (MLP) and Support Vector Machine (SVM)
+1 - Regression problem: Linear Regression with Ridge Regularization. In this project I built all the features from scratch.
+2 - Binary and Multiclass Classification Problem: Logistic Regression and KNN. In this project I built all the features from scratch.
+3 - Binary Classification: Multilayer Perceptron (MLP) and Support Vector Machine (SVM). In this project I used the SCIKITLEARN Package.
 
-The Project consisted in Computer Vision problem which I tried to use Convolutional Neural Networks in a problem called Image Registration, that consists in findind the geometric transformation which alligns two images according to an specific measure.
+The Project consisted in Computer Vision problem which I tried to use Convolutional Neural Networks in a problem called Image Registration, that consists in findind the geometric transformation which alligns two images according to an specific measure. For implementind the project I used the KERAS Package.
 
 Until this moment, the algorithms implemented from scratch are:
 
