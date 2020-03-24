@@ -11,6 +11,6 @@ The Project consisted in Computer Vision problem which I tried to use Convolutio
 
 Until this moment, the algorithms implemented from scratch are:
 
-1 - Logistic Regression with no regularization and Gradient Descent Optimization Algorithm;
+1 - Logistic Regression with no regularization and Gradient Descent Optimization Algorithm; As an application of that algorithm I used the MNIST Dataset and tried to differenciate an specific number to all others, e.g., differenciate 0 from the other numbers (1, 2, 3, ...).
 
 The functions implemented corresponds to some metrics used in classification problems, such as True Positive Rate and F1 Score.
